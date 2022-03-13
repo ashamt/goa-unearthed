@@ -16,7 +16,6 @@
 }
 
 body {
-  margin: 0;
   padding: 0;
   background-color: var(--clr-background-color);
   text-decoration: none;
@@ -107,14 +106,13 @@ section {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   left: 50%;
-  font-family: "Cutive Mono", monospace;
+  font-family: "Special Elite", monospace;
   color: var(--clr-text-main);
   font-size: 18px;
-  margin: 0;
 
 }
 
@@ -146,6 +144,8 @@ h3{
 
   padding-bottom: 50px;
   padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 
 }
 
@@ -171,6 +171,8 @@ h3{
 .row {
   display: flex;
   align-items: center;
+padding: 10px;
+  
 
 }
 
@@ -178,7 +180,7 @@ h3{
   flex-direction: row-reverse;
 }
 
-.col{
+col {
   padding: 10px;
 }
 
@@ -228,8 +230,6 @@ footer {
 }
 
 span {
-  padding: 0px;
-  margin: 0px;
   font-family: "Special Elite", serif;
   color: var(--clr-h3);
   font-size: 15px;
@@ -257,5 +257,36 @@ footer h5 {
 .img-label {
   width: 100%;
   text-align: center;
+  font-family: "Devonshire";
+  color: var(--clr-text-main);
+  font-size: 23px;
 
+}
+
+.normal {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.border0 {
+  margin: 15px;
+}
+.border1 {
+  margin: 20px;
+}
+
+.border2 {
+  margin: 25px;
+}
+
+.border3 {
+  margin: 30px
+}
+
+.border4 {
+  margin:35px;
+}
+
+.padding-bottom {
+  padding-bottom: 10;
 }
