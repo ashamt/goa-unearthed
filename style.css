@@ -1,7 +1,9 @@
 
 :root {
   --clr-background-color: #BA713E;
-  --clr-text-main: #280008;
+  --clr-text-main: #552210;
+  --clr-text-dark: #280008;
+  --clr-text-light: #6C3314;
   --clr-hover: #CB926C;
   --clr-h3: #390f12;
   --clr-h2: #6C3314;
@@ -60,26 +62,26 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: var(--clr-text-main);
+  color: var(--clr-text-dark);
   font-size: 20px;
 
 }
 
 nav ul li:hover {
-  background-color: var(--clr-hover);
-  color: var(--clr-text-main);
+ 
+  color: var(--clr-text-dark);
 }
 
 
 nav a:hover {
-  color: var(--clr-text-main);
+  color: var(--clr-text-light);
 }
 
 .logo {
   text-decoration: none;
   font-family: "Special Elite", cursive;
   text-decoration: none;
-  color: var(--clr-text-main);
+  color: var(--clr-text-dark);
   font-size: 35px;
   margin-left: 50px;
   align-self: center;
@@ -113,6 +115,8 @@ p {
   font-family: "Special Elite", monospace;
   color: var(--clr-text-main);
   font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 
 }
 
@@ -257,9 +261,11 @@ footer h5 {
 .img-label {
   width: 100%;
   text-align: center;
-  font-family: "Devonshire";
-  color: var(--clr-text-main);
-  font-size: 23px;
+  font-family: "Cutive";
+  color: var(--clr-text-light);
+  font-size: 15px;
+  padding-top: 7px;
+  
 
 }
 
