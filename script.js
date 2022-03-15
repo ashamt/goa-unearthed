@@ -20,6 +20,9 @@ let img = document.querySelectorAll(".banner-img")
       }, 3000)
 
       setTimeout(function(){
-      txt.classList.remove("active")
-      }, 6000); 
+      txt.classList.add("active")
+      }, 1000); 
+      setTimeout(function(){
+        txt.classList.remove("active")
+        }, 6000); 
       
